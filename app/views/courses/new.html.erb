@@ -1,0 +1,9 @@
+<h1>Courses Form</h1>
+
+<%= form_for.each do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name, required: true %>
+
+    <%= f.submit %>
+
+<% end %>
